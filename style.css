@@ -1,0 +1,41 @@
+.container{
+    border: solid black;
+    display: inline-block;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: white;
+   background-image: linear-gradient(to right, rgb(116, 41, 41),rgb(226, 14, 14));
+}
+
+.input{
+    padding: 10px;
+    margin-bottom: 1cm;
+    border-radius: 12px;
+    width: 90%;
+   
+}
+
+.input:hover{
+    background-color: red;
+}
+
+.enviar{
+    width: 100%;
+    color: white;
+    padding: 15px;
+    background-image: linear-gradient(to right, rgb(19, 17, 17),rgb(58, 44, 44));
+
+}
+
+.titulo{
+    color: black;
+}
+
+body{
+    background-color: black;
+
+}
